@@ -280,6 +280,17 @@
             };
 
             /**
+             * The dark mode menu controller.
+             */
+            this.darkmode = {
+                toggle: function() {
+                    var theme = $('body').attr('data-theme');
+                    localStorage.setItem('dark', (theme !== 'dark'));
+                    $('body').attr('data-theme', (theme === 'dark' ? '' : 'dark'));
+                }
+            };
+
+            /**
              * The help menu item controller.
              */
             this.help = {

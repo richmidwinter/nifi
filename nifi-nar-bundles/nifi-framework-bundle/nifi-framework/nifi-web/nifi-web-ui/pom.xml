@@ -699,6 +699,7 @@
                                             <output>${project.build.directory}/${project.build.finalName}/css/nf-common-ui.css</output>
                                             <includes>
                                                 <include>${staging.dir}/css/common-ui.css</include>
+                                                <include>${staging.dir}/css/dark-mode.css</include>
                                             </includes>
                                         </aggregation>
                                         <aggregation>

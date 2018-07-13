@@ -297,6 +297,11 @@
             //Manually Boostrap Angular App
             nfNgBridge.injector = angular.bootstrap($('body'), ['ngCanvasApp'], {strictDi: true});
 
+            // Set dark theme if applicable
+            if (localStorage.getItem('dark') && localStorage.getItem('dark').toLowerCase() === 'true') {
+              $('body').attr('data-theme', 'dark');
+            }
+
             // initialize the NiFi
             var userXhr = nfCanvas.init();
 

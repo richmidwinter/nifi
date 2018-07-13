@@ -44,5 +44,6 @@
 @import url(message-pane.css);
 @import url(common-ui.css);
 @import url(status-history.css);
+@import url(dark-mode.css);
 @import url(../fonts/flowfont/flowfont.css);
 @import url(../assets/font-awesome/css/font-awesome.css);

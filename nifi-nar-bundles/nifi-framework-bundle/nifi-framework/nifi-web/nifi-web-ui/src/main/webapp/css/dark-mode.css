@@ -1,0 +1,171 @@
+body[data-theme='dark'] md-toolbar#header,
+    body[data-theme='dark'] div.dialog-buttons div.button,
+    body[data-theme='dark'] div#breadcrumbs,
+    body[data-theme='dark'] .graph-control,
+    body[data-theme='dark'] button,
+    body[data-theme='dark'] .button,
+    body[data-theme='dark'] .dialog-header,
+    body[data-theme='dark'] .tab,
+    body[data-theme='dark'] .slick-header-column,
+    body[data-theme='dark'] #context-menu,
+    body[data-theme='dark'] #flow-status button#search-button,
+    body[data-theme='dark'] #global-menu-content,
+    body[data-theme='dark'] #global-menu-button {
+  background-color: #222 !important;
+}
+
+body[data-theme='dark'] .selected-tab,
+    body[data-theme='dark'] div.dialog-buttons:first-child,
+    body[data-theme='dark'] .combo-button-normal,
+    body[data-theme='dark'] .context-menu.sub-menu,
+    body[data-theme='dark'] .slick-row,
+    body[data-theme='dark'] textarea,
+    body[data-theme='dark'] input[type=text] {
+  background-color: #444 !important;
+}
+
+body[data-theme='dark'] div#flow-status {
+  border-bottom: black;
+}
+
+body[data-theme='dark'] md-toolbar#header button,
+    body[data-theme='dark'] span.link,
+    body[data-theme='dark'] div.graph-control button,
+    body[data-theme='dark'] div.slick-viewport .fa,
+    body[data-theme='dark'] div.graph-control-header-icon.fa,
+    body[data-theme='dark'] #header .fa,
+    body[data-theme='dark'] #data-flow-title-container,
+    body[data-theme='dark'] #shell-close-button,
+    body[data-theme='dark'] #global-menu-content .fa,
+    body[data-theme='dark'] #global-menu-content .icon,
+    body[data-theme='dark'] md-menu-content md-menu-item,
+    body[data-theme='dark'] .setting-field,
+    body[data-theme='dark'] .settings-header-text,
+    body[data-theme='dark'] .summary-header-text,
+    body[data-theme='dark'] .graph-control-docked,
+    body[data-theme='dark'] .setting-field .fa,
+    body[data-theme='dark'] .setting-name .fa,
+    body[data-theme='dark'] div#operation-context-id,
+    body[data-theme='dark'] .context-menu-item-text,
+    body[data-theme='dark'] div#flow-status .icon span {
+  color: turquoise;
+}
+
+body[data-theme='dark'] g.processor text.processor-icon,
+    body[data-theme='dark'] text.stats-value,
+    body[data-theme='dark'] text.add-connect,
+    body[data-theme='dark'] g.processor text.processor-name {
+  fill: turquoise;
+}
+
+body[data-theme='dark'] md-menu-divider,
+    body[data-theme='dark'] div#status-history-last,
+    body[data-theme='dark'] div.context-menu-item-separator {
+  background-color: turquoise;
+}
+
+body[data-theme='dark'] div#flow-status .fa span,
+    body[data-theme='dark'] button,
+    body[data-theme='dark'] textarea,
+    body[data-theme='dark'] .button,
+    body[data-theme='dark'] .dialog-content,
+    body[data-theme='dark'] div.graph-control-header,
+    body[data-theme='dark'] div#operation-context-name,
+    body[data-theme='dark'] div#variable-message,
+    body[data-theme='dark'] div#status-history-last-refreshed-container,
+    body[data-theme='dark'] div.dialog-buttons div.button,
+    body[data-theme='dark'] .tab,
+    body[data-theme='dark'] .combo,
+    body[data-theme='dark'] text.label-value,
+    body[data-theme='dark'] .slick-row,
+    body[data-theme='dark'] span.string-check-label,
+    body[data-theme='dark'] input[type=text],
+    body[data-theme='dark'] .setting-name {
+  color: white;
+}
+
+body[data-theme='dark'] g text.process-group-name,
+    body[data-theme='dark'] g text.processor-type,
+    body[data-theme='dark'] g text.processor-bundle,
+    body[data-theme='dark'] g text.stats-info,
+    body[data-theme='dark'] g text.stats-label {
+  fill: white;
+}
+
+body[data-theme='dark'] div#flow-status,
+    body[data-theme='dark'] body,
+    body[data-theme='dark'] .dialog,
+    body[data-theme='dark'] .combo-editor,
+    body[data-theme='dark'] .slickgrid-nfel-editor,
+    body[data-theme='dark'] .slick-cell.selected,
+    body[data-theme='dark'] #canvas-container,
+    body[data-theme='dark'] #shell-container,
+    body[data-theme='dark'] .context-menu-item:hover,
+    body[data-theme='dark'] #global-menu-content a:hover,
+    body[data-theme='dark'] md-toolbar#header button:hover {
+  background-color: #333 !important;
+}
+
+body[data-theme='dark'] g rect,
+    body[data-theme='dark'] g.processor rect.body,
+    body[data-theme='dark'] g.processor rect.processor-icon-container {
+  fill: #444 !important;
+}
+
+body[data-theme='dark'] #canvas-container {
+  background-image: linear-gradient(to right,rgba(0,0,0,0.2) 1px,transparent 1px),
+    linear-gradient(to bottom,rgba(0,0,0,0.1) 1px,transparent 1px);
+}
+
+body[data-theme='dark'] span.component-button-grip,
+    body[data-theme='dark'] div#breadcrumbs-left-border,
+    body[data-theme='dark'] div#breadcrumbs-right-border {
+  display: none;
+}
+
+body[data-theme='dark'] div.graph-control button,
+    body[data-theme='dark'] div.graph-control,
+    body[data-theme='dark'] div#breadcrumbs,
+    body[data-theme='dark'] div#auto-terminate-relationship-names,
+    body[data-theme='dark'] textarea,
+    body[data-theme='dark'] button,
+    body[data-theme='dark'] .tab,
+    body[data-theme='dark'] .selected-tab,
+    body[data-theme='dark'] .combo,
+    body[data-theme='dark'] .slick-cell,
+    body[data-theme='dark'] input[type=text],
+    body[data-theme='dark'] #shell-close-button,
+    body[data-theme='dark'] #flow-status button#search-button {
+  border: none;
+}
+
+body[data-theme='dark'] .stopped,
+    body[data-theme='dark'] .invalid:before,
+    body[data-theme='dark'] .invalid {
+  text-shadow: none;
+}
+
+body[data-theme='dark'] rect.backpressure-percent {
+  fill: rgba(186,85,74,0.65) !important;
+}
+
+body[data-theme='dark'] div#birdseye rect.birdseye-brush {
+  fill: transparent !important;
+}
+
+body[data-theme='dark'] g.processor rect.body {
+  filter: none;
+}
+body[data-theme='dark'] g.processor rect.border.full {
+  stroke-width: 3
+}
+body[data-theme='dark'] #header .fa {
+  font-size: 24px;
+}
+body[data-theme='dark'] div#birdseye {
+  background-color: #666;
+}
+body[data-theme='dark'] rect.birdseye-brush {
+  stroke: turquoise;
+  stroke-width: 3;
+}
